@@ -1,7 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!--
+  ============================================================
+   RAMO DE GIRASOLES BRILLANTES CON CARTICA  (versión noche)
+  ============================================================
+   Todo está en este único archivo. Se divide en 3 partes:
 
+     1. CSS (estilos)    -> colores, tamaños, animaciones
+     2. HTML (contenido) -> títulos, reproductor y TEXTO DE LA CARTA
+     3. JavaScript       -> cielo de estrellas, flores, música y carta
+
+   ¿Qué quieres cambiar?
+     - El texto de la carta ........ busca:  ESCRIBE TU CARTA AQUÍ
+     - El título grande ............ busca:  TÍTULO
+     - El nombre en el reproductor . busca:  REPRODUCTOR
+     - La canción .................. busca:  <audio
+     - Volumen / ajustes de música . busca:  AJUSTES
+     - Colores ..................... busca:  COLORES
+     - Cantidad/posición de flores . busca:  LISTA DE FLORES
+     - Cantidad de estrellas ....... busca:  CIELO DE ESTRELLAS
+
+   IMPORTANTE: el archivo de la canción (.mp3) debe estar en la
+   MISMA carpeta que este index.html y llamarse igual que en <audio>.
+  ============================================================
+-->
 
 <head>
   <meta charset="utf-8">
@@ -14,10 +37,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
 
 
+  <!-- =====================================================
+       PARTE 1: CSS (ESTILOS)
+       ===================================================== -->
   <style>
 
+    /* ------------------------------------------------------
+       1.1  COLORES
+       ------------------------------------------------------ */
     :root {
-     
+      /* Fondo de la noche */
       --noche-arriba: #14123a;    /* azul violeta arriba */
       --noche-abajo:  #04050c;    /* casi negro abajo */
 
